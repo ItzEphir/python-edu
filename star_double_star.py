@@ -1,5 +1,6 @@
 
 def main():
+    print('*, **')
     # * - генерирует tuple от всех переданных элементов
     def function1(*args):
         print(args)
@@ -10,6 +11,7 @@ def main():
     def function2(**kwargs):
         print(kwargs)
     function2(a="Cool", b="Text", c="I`m mr.Beast")
+    print()
 
 
 if __name__ == '__main__':
