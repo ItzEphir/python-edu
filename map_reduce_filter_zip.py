@@ -2,9 +2,10 @@ from functools import reduce
 
 
 def main():
+    example_list = '1 2 3 4 5 6 7 8 9 10'.split()
+
     # в map передается первым параметром функция, которая применяется к каждому элементу,
     # а вторым аргументом - последовательность, возвращает map
-    example_list = '1 2 3 4 5 6 7 8 9 10'.split()
     mapped_list = list(map(int, example_list))
     print(mapped_list)
 

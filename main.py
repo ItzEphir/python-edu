@@ -1,3 +1,3 @@
-from map_reduce_filter_zip import *
+from regex_templates import *
 
 main()
