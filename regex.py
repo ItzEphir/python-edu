@@ -2,6 +2,7 @@ import re
 
 
 def main():
+    print('Regex functions')
     string = 'AC/DCAC/DCAC/DCAC/DCAC/DCAC/DCAC/DC'
 
     # метод match ищет в начале строки соответствующий паттерн, если не найдено - None

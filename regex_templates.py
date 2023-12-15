@@ -15,6 +15,7 @@ def print_result(pattern, string):
 
 
 def main():
+    print('Regex templates')
     hard_string = '87+684645    --- kjgdsklfb98798790909^7 HKLJHLKJHffffggg'
 
     # в r-строках отключаются специальные символы, к примеру \n
